@@ -31,7 +31,7 @@ a{
 
 }
 header {
-    width: 50%;
+    width: 100%;
     padding: 20px;
     background-color: #000000;
     display: flex;
@@ -71,6 +71,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.86), rgba(255, 255, 0, 0));
 }
 .redes a{
     color: #ebebeb;
