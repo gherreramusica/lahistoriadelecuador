@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+
 *{
     padding: 0px;
     margin: 0px;
@@ -5,15 +8,18 @@
 }
 body {
     font-family: 'raleway', sans-serif;
-    background-color: #000;
+    background-color: #ffffff;
     background-image: url(pexels-stephanie-frias-8253082.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    
+   
   
 }
 h1 {
-    font-size: 40px;
+    font-size: 60px;
+    font-family: 'Passion One';
 }
 p{
     font-size: 20px;
@@ -21,23 +27,23 @@ p{
 .contenedor {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 5% 95%;
-    height: 100vh;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    
 }
 a{
     text-decoration: none;
 
 }
 header {
-    width: 100%;
-    padding: 20px;
+    
+    padding: 20px 30px;
     background-color: #000000;
     display: flex;
     justify-content: space-between;
     grid-column-start:1 ;
-    grid-column-end:3 ;
+    grid-column-end:-1 ;
     height: 100%;
     align-items: center;    
 }
@@ -45,24 +51,23 @@ header {
     color: white;
 }
 .form {
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.863);
+    padding: 20px 30px;
+    background-color: rgba(0, 0, 0, 0.922);
     grid-column-start:1 ;
     grid-column-end: 2;
-    height: auto;
-    min-height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    color:whitesmoke;   
+    color:whitesmoke;
+    height:100% ; 
     
 }
 .texto {
-    width: 70%;
+    width: 80%;
 }
 .redes {
-    padding: 20px;
+    padding: 20px 30px;
     background-color: rgba(0, 255, 255, 0);
     grid-column-start:2 ;
     grid-column-end:-1 ;
@@ -70,13 +75,12 @@ header {
     align-items: end;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     background-image: linear-gradient(rgba(0, 0, 0, 0.86), rgba(255, 255, 0, 0));
 }
 .redes a{
     color: #ebebeb;
     font-size: 30px;
-    padding-bottom: 10px;
 }
 .amarillo{
     color: yellow;
@@ -87,7 +91,7 @@ header {
 .rojo{
     color: red;
 }
-video {
+/* video {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -96,11 +100,13 @@ video {
     height: 100vh;
     min-width: 100%;
     min-height: 100%;
-}
+} */
 @media only screen and (max-width: 700px) {
     .contenedor{
         grid-template-columns: 1fr;
-        grid-template-rows: 5% 50% 45%;
+        grid-template-rows: 1fr 1fr;
+        
+        
     }
     .form {
         grid-column-start:1 ;
@@ -112,8 +118,11 @@ video {
     .redes {
         grid-column-start:1;
         grid-column-end:-1 ;
+        flex-direction:row ;
+        justify-content: space-evenly;
+        
     }
     header {
-        width: 100%;
+        
     }
   }
