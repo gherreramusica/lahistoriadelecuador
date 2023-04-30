@@ -9,6 +9,7 @@ body {
     background-image: url(pexels-stephanie-frias-8253082.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
   
 }
 h1 {
