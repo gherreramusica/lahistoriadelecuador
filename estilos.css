@@ -5,6 +5,7 @@
 }
 body {
     font-family: 'raleway', sans-serif;
+    background-color: black;
   
 }
 h1 {
@@ -102,4 +103,6 @@ video {
         grid-column-start:1;
         grid-column-end:-1 ;
     }
+    .form i{
+        display: none;
   }
