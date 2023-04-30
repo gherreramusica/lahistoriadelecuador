@@ -89,7 +89,16 @@ button {
 .rojo{
     color: red;
 }
-
+@media only screen and (max-width: 700px) {
+    .contenedor {
+      grid-template-columns:1fr;
+    }
+    .redes {
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+  }
 
 
 
