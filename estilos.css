@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    margin: auto;
+    width: 60%;
+    
+    background-color: rgba(240, 248, 255, 0);
+    padding: 50px;
+    text-align: center;
+    height: 100hv;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: dashed #000;
+}
+
+h1{
+    font-size: 70px;
+    font-family: 'raleway', sans-serif;
+    text-transform: uppercase;
+}
