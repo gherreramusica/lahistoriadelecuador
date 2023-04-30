@@ -1,49 +1,50 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url(Sierra.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
-    background-color: rgb(245, 245, 245);
 }
 
-.contenedor {
-    margin: auto;
-    width: 60%;
-    
-    background-color: rgba(240, 248, 255, 0);
-    padding: 50px;
-    text-align: center;
-    height: 100hv;
+.form {
+    padding: 30px;
+    width: 50%;
+    background-color: rgba(18, 18, 18, 0.792);
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     
+    color: white;
+    font-family: 'raleway', sans-serif;
+    font-size: 25px;
+    text-align: left;
 }
 
-img {
+input {
+    width: 300px;
+    height: 50px;
+    text-align: ;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
-
-h1{
-    font-size: 60px;
-    font-family: 'raleway', sans-serif;
-    text-transform: uppercase;
+h1 {
+    text-align: left;
+}
+button {
+    width: 100px;
+    height: 50px;
 }
 
-h2 {
-    font-family: 'raleway', sans-serif;
-}
-
-
-
-@media only screen and (max-width: 800px) {
-    h1 {
-      font-size: 40px;
+@media only screen and (max-width: 600px) {
+    .form {
+      width: 100%;
+      height: 50%;
+      overflow: hidden;
     }
-}
+  }
