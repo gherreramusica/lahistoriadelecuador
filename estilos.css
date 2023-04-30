@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: rgb(245, 245, 245);
 }
 
 .contenedor {
@@ -22,11 +23,27 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: dashed #000;
+    
+}
+
+img {
+    margin-bottom: 10px;
 }
 
 h1{
-    font-size: 70px;
+    font-size: 60px;
     font-family: 'raleway', sans-serif;
     text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'raleway', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    h1 {
+      font-size: 40px;
+    }
 }
