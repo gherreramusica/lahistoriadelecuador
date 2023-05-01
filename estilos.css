@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
+
+
 
 
 *{
@@ -20,9 +25,12 @@ body {
 h1 {
     font-size: 60px;
     font-family: 'Passion One';
+    color: white;
 }
 p{
     font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 30px;
 }
 .contenedor {
     display: grid;
@@ -52,7 +60,7 @@ header {
 }
 .form {
     padding: 20px 30px;
-    background-color: rgba(0, 0, 0, 0.922);
+    background-color: rgba(0, 0, 0, 0.951);
     grid-column-start:1 ;
     grid-column-end: 2;
     display: flex;
@@ -76,7 +84,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.86), rgba(255, 255, 0, 0));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.927), rgba(255, 255, 0, 0));
 }
 .redes a{
     color: #ebebeb;
@@ -91,8 +99,38 @@ header {
 .rojo{
     color: red;
 }
-.reloj {
-    color:white;
+.reloj{
+    color: white;
+    font-family: 'Braah One', sans-serif;
+    font-size: 20px;
+}
+hr {
+    color: white;
+    width: 40%;
+}
+.newsletter {
+    margin-top: 30px;
+    background-color: white;
+    padding: 3px;
+    display: inline-block;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #00000000;
+    border: 1px solid #ffffff;
+}
+input {
+    background-color: #00000000;
+    border: rgba(128, 128, 128, 0);
+    padding-left: 5px;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+}
+button {
+    border: none;
+    padding: 10px;
+    background-color: #ebebeb;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
 }
 /* video {
     position: absolute;
@@ -127,5 +165,8 @@ header {
     }
     header {
         
+    }
+    h1 {
+        font-size: 40px;
     }
   }
