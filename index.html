@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="estilos.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
     
 
 </head>
@@ -24,9 +27,21 @@
     
     <!-- <video autoplay loop muted plays-inline class="video"><source src="cascada.mp4" type="video/mp4"></video> -->
     <header>
-        <a href=""><i class="fi fi-ss-circle amarillo"></i><i class="fi fi-ss-circle azul"></i><i class="fi fi-ss-circle rojo"></i></a>
-        <div class="reloj" id="txt"></div>
-        <a href=""><i class="fi fi-ss-menu-burger toggle"></i></a>
+        <div class="nav">
+            <div><a href=""><i class="fi fi-ss-circle amarillo"></i><i class="fi fi-ss-circle azul"></i><i class="fi fi-ss-circle rojo"></i></a></div>
+            <div class="reloj" id="txt"></div>
+            <div><a href=""><i class="fi fi-ss-menu-burger toggle"></i></a></div>
+        </div>
+        <audio id="music" src="11 Sombras.mp3"></audio>
+        <div class="player">
+            
+            <div class="controls">
+                
+                <div id="play" onclick="playAudio()"><ion-icon name="play-circle-outline"></ion-icon></div>
+                <div id="next" onclick="pauseAudio()"><ion-icon name="pause-circle-outline"></ion-icon></div>
+              
+            </div>
+        </div>
     </header>
     <div class="contenedor">
         <div class="form">
@@ -44,8 +59,10 @@
             <a href=""><i class="fi fi-brands-instagram"></i></a>
         </div>      
     </div>
-                
-        <script src="hde.js"></script>        
+     
+        <script src="hde.js"></script>    
+         
+          
     
 
 </body>
