@@ -1,18 +1,22 @@
 
 
 
-function startTime() {
-    const today = new Date();
-    let h = today.getHours();
-    let m = today.getMinutes();
-    let s = today.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-    document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
-    setTimeout(startTime, 1000);
+function updateTime() {
+    const now = new Date();
+    const date = now.toLocaleDateString();
+    const time = now.toLocaleTimeString();
+    document.getElementById('txt').innerHTML = `${time} - ${date}`;
   }
   
-  function checkTime(i) {
-    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-    return i;
+  updateTime();
+  setInterval(updateTime, 1000);
+
+  var audio = document.getElementById('music');
+
+  function playAudio() { 
+    audio.play(); 
+  }
+  
+  function pauseAudio() { 
+    audio.pause(); 
   }
