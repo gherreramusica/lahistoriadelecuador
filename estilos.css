@@ -17,6 +17,7 @@ body {
     background-image: url(pexels-stephanie-frias-8253082.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
     /* overflow-x: hidden; */
     
    
@@ -45,15 +46,19 @@ a{
 
 }
 header {
-    
-    padding: 20px 30px;
+    width: 100%;
+    padding: 10px 10px;
     background-color: #000000;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;      
+}
+
+.controls {
     display: flex;
-    justify-content: space-between;
-    grid-column-start:1 ;
-    grid-column-end:-1 ;
-    height: 100%;
-    align-items: center;    
+    gap: 15px;
+    background-color: #00000000;
 }
 .toggle{
     color: white;
@@ -83,8 +88,9 @@ header {
     align-items: end;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.927), rgba(255, 255, 0, 0));
+    justify-content: center;
+    gap: 80px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 0, 0));
 }
 .redes a{
     color: #ebebeb;
@@ -132,9 +138,29 @@ button {
     border-radius: 5px 5px 5px 5px;
     cursor: pointer;
 }
+.player{
+    background-color: #00000000;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center   ;
+    justify-content: end;
+    font-size: 20px;
+    gap: 15px;
+}
+  
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+    background-color: rgba(127, 255, 212, 0);
+    
+}
 /* video {
     position: absolute;
-    top: 0;
+    top: 0;t
     bottom: 0;
     z-index: -1;
     width: auto;
@@ -165,7 +191,7 @@ button {
         grid-column-start:1;
         grid-column-end:-1 ;
         flex-direction:row ;
-        justify-content: space-evenly;
+        
         
     }
     input {
@@ -174,4 +200,18 @@ button {
     h1 {
         font-size: 40px;
     }
+    .newsletter button{
+       color: #000000;
+    }
+    header {
+        grid-template-columns: 1fr;
+        
+    }
+    .player {
+        place-self: center;
+        flex-direction: column;
+    }
+    
   }
+
+  
