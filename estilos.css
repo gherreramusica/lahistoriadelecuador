@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
   
   
   @import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
-
-
-
 
 *{
     padding: 0px;
@@ -13,19 +10,12 @@
 }
 body {
     font-family: 'raleway', sans-serif;
-    background-color: #ffffff;
-    background-image: url(pexels-stephanie-frias-8253082.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    /* overflow-x: hidden; */
-    
-   
-  
+    background-color: #000000;
+    position: relative; 
 }
 h1 {
     font-size: 60px;
-    font-family: 'Passion One';
+    font-family: 'raleway', sans-serif
     color: white;
 }
 p{
@@ -38,34 +28,34 @@ p{
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    
+    height: 100vh;  
 }
 a{
     text-decoration: none;
-
 }
-header {
+header{
+    position: ;
+    top: 0;
+    left: 0;
     width: 100%;
     padding: 10px 10px;
-    background-color: #000000;
+    background-color: #000000eb;
     justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;      
 }
-
 .controls {
     display: flex;
     gap: 15px;
-    background-color: #00000000;
+    background-color: #00000064;
 }
 .toggle{
     color: white;
 }
 .form {
     padding: 20px 30px;
-    background-color: rgba(0, 0, 0, 0.951);
+    background-color: #000000eb;
     grid-column-start:1 ;
     grid-column-end: 2;
     display: flex;
@@ -74,7 +64,7 @@ header {
     align-items: start;
     color:whitesmoke;
     height:100% ; 
-    
+    z-index: -1; 
 }
 .texto {
     width: 80%;
@@ -84,7 +74,7 @@ header {
     background-color: rgba(0, 255, 255, 0);
     grid-column-start:2 ;
     grid-column-end:-1 ;
-    height: 100%;
+    height:100% ;
     align-items: end;
     display: flex;
     flex-direction: column;
@@ -158,42 +148,73 @@ button {
     background-color: rgba(127, 255, 212, 0);
     
 }
-/* video {
+.menu {
+    
+    width: 100;
+    background-color: #000000;
+    color: white;
+    display: none;
+    
+}
+.show {
+    display:block;
+    
+}
+.menu li {
+    width: 50%;
+    padding: 15px;
+    border-bottom: 0.1px solid #3b3b3b;
+    cursor: pointer;
+    
+}
+.menu li:hover {
+    color: rgb(184, 184, 184);
+}
+.menu li:active {
+    color: red;
+}
+.play:hover {
+    color: gray;
+}
+.pause:hover {
+    color:gray;
+}
+video {
     position: absolute;
-    top: 0;t
+    top: 0;
     bottom: 0;
     z-index: -1;
-    width: auto;
-    height: 100vh;
-    min-width: 100%;
-    min-height: 100%;
-} */
+    width: 100%;
+    /* height: 100vh; */
+   
+    height: 100%;
+    object-fit: cover;
+}
+.play, .pause {
+    cursor: pointer;
+}
 @media only screen and (max-width: 880px) {
     .contenedor{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        text-align: center;
-        
-        
-    }
-    hr {
-        margin: ;
+        text-align: center;      
     }    
     .form {
         grid-column-start:1 ;
         grid-column-end:-1 ;
         align-items: center;
-      text-align: left;
+        text-align: left;
+        position: relative;     
     }
     .form i{
         display: none;
+
     }
     .redes {
         grid-column-start:1;
         grid-column-end:-1 ;
-        flex-direction:row ;
-        
-        
+        flex-direction:row ; 
+        position: ;   
     }
     input {
         width: 150px;
@@ -206,13 +227,18 @@ button {
     }
     header {
         grid-template-columns: 1fr;
+        position: ;
         
     }
     .player {
         place-self: center;
         flex-direction: column;
     }
+    .menu li {
+        width: 100%;
+    } 
     
   }
 
+  
   
