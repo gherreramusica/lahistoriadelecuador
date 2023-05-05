@@ -1,3 +1,4 @@
+
     <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,45 +20,51 @@
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-    
-
 </head>
-<body onload="startTime()">
-    
-    <!-- <video autoplay loop muted plays-inline class="video"><source src="cascada.mp4" type="video/mp4"></video> -->
-    <header>
-        <div class="nav">
-            <div><a href=""><i class="fi fi-ss-circle amarillo"></i><i class="fi fi-ss-circle azul"></i><i class="fi fi-ss-circle rojo"></i></a></div>
-            <div class="reloj" id="txt"></div>
-            <div><a href=""><i class="fi fi-ss-menu-burger toggle"></i></a></div>
+<body>
+    <div class="container">
+        <video autoplay loop muted class="video"><source src="carondelet.mp4" type="video/mp4"></video>
+        <header>
+            <div class="nav">
+                <div><a href=""><i class="fi fi-ss-circle amarillo"></i><i class="fi fi-ss-circle azul"></i><i class="fi fi-ss-circle rojo"></i></a></div>
+                <div class="reloj" id="txt"></div>
+                <div><a onclick="myFunction()" href="javascript:void(0);"><i class="fi fi-ss-menu-burger toggle"></i></a></div>
+            </div>
+            <audio id="music" src="11 Sombras.mp3"></audio>
+            <div class="player">
+        
+                <div class="controls">
+        
+                    <div id="play" class="play" onclick="playAudio()"><ion-icon name="play-circle-outline"></ion-icon></div>
+                    <div id="pause" class="pause" onclick="pauseAudio()"><ion-icon name="pause-circle-outline"></ion-icon></div>
+        
+                </div>
+            </div>
+        </header>
+        <div class="menu" id="menu" >
+            <ul id="list">
+                <li>Inicio</li>
+                <li>Sobre nosotros</li>
+                <li>Mi cuenta</li>
+                <li>Contacto</li>
+            </ul>
         </div>
-        <audio id="music" src="11 Sombras.mp3"></audio>
-        <div class="player">
-            
-            <div class="controls">
-                
-                <div id="play" onclick="playAudio()"><ion-icon name="play-circle-outline"></ion-icon></div>
-                <div id="next" onclick="pauseAudio()"><ion-icon name="pause-circle-outline"></ion-icon></div>
-              
+        <div class="contenedor">
+            <div class="form">
+                <div class="texto">
+                    <p><i class="fi fi-ss-circle amarillo"></i><i class="fi fi-ss-circle azul"></i><i class="fi fi-ss-circle rojo"></i></p>
+                    <h1>LA HISTORIA DEL ECUADOR</h1><hr><br>
+                    <p>Muy pronto en este sitio descubrirás y conocerás todas las historias del Ecuador. Prepárate para un viaje directo a la mitad del mundo.</p><br>
+                    <!-- <h2>Suscríbete para notificarte sobre el lanzamiento de lahistoriadelecuador.com</h2>
+                    <div class="newsletter"><input type="email" name="" id="" placeholder="e-mail"><button type="submit">ENVIAR</button></div> -->
+                </div>
+            </div>
+            <div class="redes">
+                <a href=""><i class="fi fi-brands-facebook"></i></a>
+                <a href=""><i class="fi fi-brands-youtube"></i></a>
+                <a href=""><i class="fi fi-brands-instagram"></i></a>
             </div>
         </div>
-    </header>
-    <div class="contenedor">
-        <div class="form">
-            <div class="texto">
-                <p><i class="fi fi-ss-circle amarillo"></i><i class="fi fi-ss-circle azul"></i><i class="fi fi-ss-circle rojo"></i></p>
-                <h1>LA HISTORIA DEL ECUADOR</h1><hr><br>
-                <p>Muy pronto en este sitio descubrirás y conocerás todas las historias del Ecuador. Prepárate para un viaje directo a la mitad del mundo.</p><br>
-                <h2>Suscríbete para notificarte sobre el lanzamiento de lahistoriadelecuador.com</h2>
-                <div class="newsletter"><input type="email" name="" id="" placeholder="e-mail"><button type="submit">ENVIAR</button></div>
-            </div>                  
-        </div>
-        <div class="redes">
-            <a href=""><i class="fi fi-brands-facebook"></i></a>
-            <a href=""><i class="fi fi-brands-youtube"></i></a>
-            <a href=""><i class="fi fi-brands-instagram"></i></a>
-        </div>      
     </div>
      
         <script src="hde.js"></script>    
