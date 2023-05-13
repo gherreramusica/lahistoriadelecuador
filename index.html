@@ -2,15 +2,6 @@
     <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XGRX9PVBCZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-XGRX9PVBCZ');
-</script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,36 +11,44 @@
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+
 </head>
 <body>
+    
     <div class="container">
-        <video autoplay loop muted class="video"><source src="carondelet.mp4" type="video/mp4"></video>
+        <video autoplay loop muted controls class="video"><source src="carondelet.mp4" type="video/mp4"></video>
         <header>
             <div class="nav">
                 <div><a href=""><i class="fi fi-ss-circle amarillo"></i><i class="fi fi-ss-circle azul"></i><i class="fi fi-ss-circle rojo"></i></a></div>
                 <div class="reloj" id="txt"></div>
                 <div><a onclick="myFunction()" href="javascript:void(0);"><i class="fi fi-ss-menu-burger toggle"></i></a></div>
             </div>
-            <audio id="music" src="11 Sombras.mp3"></audio>
+            <audio id="music" src="Sombras.mp3"></audio>
             <div class="player">
         
                 <div class="controls">
-        
+                    
+                    <input class="volume" type="range" id="volume">
                     <div id="play" class="play" onclick="playAudio()"><ion-icon name="play-circle-outline"></ion-icon></div>
                     <div id="pause" class="pause" onclick="pauseAudio()"><ion-icon name="pause-circle-outline"></ion-icon></div>
-        
+                    
                 </div>
             </div>
         </header>
         <div class="menu" id="menu" >
             <ul id="list">
                 <li>Inicio</li>
-                <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+                <li><a href="Sobrenosotros.html">Sobre nosotros</a></li>
                 <li>Mi cuenta</li>
                 <li>Contacto</li>
             </ul>
         </div>
+        
         <div class="contenedor">
+            
             <div class="form">
                 <div class="texto">
                     <p><i class="fi fi-ss-circle amarillo"></i><i class="fi fi-ss-circle azul"></i><i class="fi fi-ss-circle rojo"></i></p>
