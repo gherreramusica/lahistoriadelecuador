@@ -1,4 +1,4 @@
- 
+
   @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
   
   
@@ -18,13 +18,14 @@ body {
 
 h1 {
     font-size: 60px;
-    font-family: 'raleway', sans-serif
+    font-family: 'raleway', sans-serif;
     color: white;
 }
 p{
     font-size: 20px;
     font-weight: 100;
     margin-bottom: 30px;
+    font-family: 'raleway', sans-serif;
 }
 .contenedor {
     display: grid;
@@ -67,7 +68,7 @@ header{
 }
 .form {
     padding: 20px 30px;
-    background-color: #1e1e1eeb;
+    background-color: #000000f2;
     grid-column-start:1 ;
     grid-column-end: 2;
     display: flex;
@@ -84,7 +85,7 @@ header{
 }
 .redes {
     padding: 20px 30px;
-    background-color: rgba(0, 255, 255, 0);
+    background-color: rgba(0, 64, 255, 0.517);
     grid-column-start:2 ;
     grid-column-end:-1 ;
     height:100% ;
@@ -177,7 +178,7 @@ button {
 .menu {
     
     width: 100;
-    background-color: #000000;
+    background-color: #000000d8;
     color: white;
     display: none;
     
@@ -191,6 +192,8 @@ button {
     padding: 15px;
     border-bottom: 0.1px solid #3b3b3b;
     cursor: pointer;
+    font-family: sans-serif;
+    text-transform: uppercase;
     
 }
 .menu li:hover {
@@ -271,5 +274,4 @@ video {
   }
 
    
-  
   
