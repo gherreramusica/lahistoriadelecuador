@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia del Ecuador</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="24deMayo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;400;600;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container_post">
+            <header>
+                <div class="header_a">
+                    <div class="logo">
+                        <a href="index.html"><img width="100" src="ecuador_tri.png" alt=""></a>
+                        </div>
+                    <div class="nav">
+                        <a href="index.html">Inicio</a>
+                        <a href="">Sobre nosotros</a>
+                        <a href="">Contacto</a>
+                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <div class="redes">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <div class="toggle" id="toggle"><i class="fa-solid fa-bars"></i></div>
+                <div class="close " id="close"><i class="fa-solid fa-close"></i></div>
+                <div class="cuenta">
+                        <li>Ingresar</li>
+                        <li>Sucríbete</li>
+                        <li>Autores</li>
+                        <li>Buzón</li>
+                </div>
+            </header>
+       
+        <div class="vertical_nav" id="vertical_nav">
+            <div class="logo">
+                <img width="150px" src="ecud.png" alt="">
+                </div>
+            <h2>Historia del Ecuador</h2><br>
+            <div class="menu_canvas">
+                <ul>
+                    <a href="index.html"><li>Inicio</li></a>
+                    <li>Blog</li>
+                    <li>Contacto</li>
+                    <li>Inicio</li>
+                    <li>Blog</li>
+                    <li>Contacto</li>
+                </ul><br>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Blog</li>
+                    <li>Contacto</li>
+                    <li>Inicio</li>
+                    <li>Blog</li>
+                    <li>Contacto</li>
+                </ul><br>
+            </div>
+            <div class="redes_offcanvas">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            </div><br>
+            <p>Todos los derechos reservados © 2023 La Historia del Ecuador</p>
+        </div>
+       <section class="section_post">
+        
+            <img src="pichincha.jpeg" alt="">
+            <div class="content_post">
+                <h1>La Batalla del Pichincha</h1>
+                <p class="date_post">24 de Mayo de 2023</p><br>
+                <p><strong>Introducción</strong></h2><br><br>
+                    <span class="primeraletra" style="margin-left: 2em;"><strong>L</strong></span>a Batalla del Pichincha es considerada como uno de los eventos más importantes en la lucha por la independencia de América Latina. Ocurrida el 24 de mayo de 1822, esta batalla tuvo lugar en las faldas del volcán Pichincha, cerca de la ciudad de Quito, en lo que hoy es Ecuador. Fue un enfrentamiento clave en la guerra de independencia de la Real Audiencia de Quito, que culminó con la liberación de Ecuador y allanó el camino para la independencia de toda la región. En este artículo, exploraremos los antecedentes históricos, el desarrollo de la batalla y sus consecuencias para la emancipación de América Latina.<br><br>
+                    <strong>Antecedentes históricos</strong><br><br>
+                    Para entender la importancia de la Batalla del Pichincha, es necesario examinar el contexto histórico en el que se desarrolló. A principios del siglo XIX, la mayor parte de América Latina estaba bajo el dominio colonial de las potencias europeas, especialmente España. Sin embargo, los ideales de la Ilustración, la Revolución Francesa y el ejemplo de los Estados Unidos habían inspirado a muchos líderes latinoamericanos a buscar la independencia y la formación de naciones soberanas.<br>
+                    En el caso de la Real Audiencia de Quito, el proceso independentista había comenzado a fines de la década de 1800, liderado por figuras destacadas como Juan Pío Montúfar, Juan de Salinas y otros patriotas quiteños. Sin embargo, las fuerzas realistas españolas se mantuvieron fuertes en la región, y la lucha por la independencia se prolongó durante varios años.<br><br>
+                    <strong>Desarrollo de la batalla</strong><br><br>
+                    La Batalla del Pichincha marcó un hito crucial en la lucha por la independencia de la Real Audiencia de Quito. Las fuerzas independentistas, lideradas por el general venezolano Antonio José de Sucre, se enfrentaron a las tropas realistas comandadas por el general Melchor Aymerich. Sucre, quien había sido nombrado por el libertador Simón Bolívar, demostró ser un estratega brillante y tenía una gran determinación para liberar a Ecuador.<br>
+                    El 24 de mayo de 1822, las tropas independentistas ascendieron las empinadas laderas del volcán Pichincha en una arriesgada maniobra militar. El terreno escarpado y accidentado presentaba un desafío adicional para las tropas, pero Sucre logró coordinar y dirigir hábilmente a sus hombres. Mientras tanto, las fuerzas realistas no esperaban un ataque desde esa dirección y fueron tomadas por sorpresa.<br>
+                    El enfrentamiento se intensificó rápidamente, y la batalla se libró con gran ferocidad. Sin embargo, el valor y la determinación de los patriotas quiteños, sumados al liderazgo de Sucre, inclinaron la balanza a favor de los independentistas. A pesar de la resistencia de las tropas realistas, finalmente fueron derrotadas y se vieron obligadas a retirarse.<br><br>
+                    <strong>Consecuencias de la Batalla del Pichincha</strong><br><br>
+                    La victoria en la Batalla del Pichincha tuvo importantes consecuencias para la independencia de Ecuador y la región en su conjunto. En primer lugar, la batalla permitió la liberación de la Real Audiencia de Quito y allanó el camino para la formación de la República de Ecuador el 13 de mayo de 1830.<br>
+                    Además, la Batalla del Pichincha tuvo un efecto simbólico en la lucha por la independencia en América Latina. La victoria en una batalla tan importante frente a las fuerzas españolas fortaleció la moral de los patriotas en toda la región y demostró que era posible derrotar al poder colonial.
+                    Asimismo, la Batalla del Pichincha consolidó la posición de Simón Bolívar como uno de los principales líderes de la independencia en América Latina. Bolívar había designado a Sucre como comandante de las fuerzas independentistas en Ecuador, y el éxito de Sucre en la batalla reafirmó la confianza y el liderazgo de Bolívar.<br><br>
+                    <strong>Conclusiones</strong><br><br>
+                    La Batalla del Pichincha representa un momento trascendental en la lucha por la independencia de América Latina. La victoria de las fuerzas independentistas lideradas por Sucre allanó el camino para la independencia de Ecuador y tuvo un impacto significativo en la moral de los patriotas en toda la región.<br>
+                    La Batalla del Pichincha demostró que el dominio colonial no era invencible y que la libertad y la soberanía eran posibles. Además, la batalla reforzó la posición de Simón Bolívar como líder destacado en la lucha por la independencia de América Latina.<br>
+                    Hasta el día de hoy, la Batalla del Pichincha es recordada como un hito histórico y un símbolo de la lucha por la independencia y la soberanía en América Latina. Su legado perdura en la memoria colectiva y sigue siendo una fuente de inspiración para las generaciones venideras.</p>
+            </div>
+
+       </section>
+        <footer>
+            
+                <div class="logo_footer">
+                    <img width="100%" src="ecud.png" alt="">
+                </div>
+                <div class="about">
+                    <p class="sobrenotros"><strong>Sobre nosotros</strong></p><br>
+                    
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos sed explicabo optio. Similique, at ea! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, incidunt dolorem soluta dolores delectus alias.</p><BR></BR>
+                    <p class="suscribete"><strong>Suscríbete para recibir nuestras últimas historias</strong></p><br>
+
+                   <!-- Begin Mailchimp Signup Form -->
+<div id="mc_embed_signup">
+    <form class="mail" action="https://lahistoriadelecuador.us21.list-manage.com/subscribe/post?u=a7b74ae18754b1666b9ccc0a0&amp;id=6daecd2a16&amp;f_id=006351e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
+        <div class="forma" id="mc_embed_signup_scroll">
+                
+        
+            <div class="mc-field-group">
+                
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+            </div>
+            <div id="mce-responses" class="clear foot">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a7b74ae18754b1666b9ccc0a0_6daecd2a16" tabindex="-1" value=""></div>
+                <div class="optionalParent">
+                    <div class="clear foot">
+                        <input type="submit" value="ENVIAR" name="ENVIAR" id="mc-embedded-subscribe" class="button">                  
+                    </div>
+                </div>
+        </div>
+    </form>
+</div>
+
+<!--End mc_embed_signup-->
+                </div>
+
+                <div class="nav_footer">
+                    <a><strong>Navegación</strong></a><br>             
+                    <a href="">Inicio</a>
+                    <a href="">Blog</a>
+                    <a href="">Contacto</a>
+                    
+                </div>
+            
+            
+                <div class="cuenta_footer">
+                    <li><strong>Links Útiles</strong></li> <br>              
+                    <li>Ingresar</li>
+                    <li>Tienda</li>
+                    <li>Sucríbete</li>          
+                    <li>Fuentes</li>
+                    <li>Autores</li>
+                    <li>Buzón</li>    
+                </div>
+            
+            
+        </footer>
+        <div class="redes_footer">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+    </div>
+
+    <script src="hde.js"></script>
+</body>
+</html>
