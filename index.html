@@ -1,5 +1,4 @@
-
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,69 +6,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historia del Ecuador</title>
     <link rel="stylesheet" href="estilos.css">
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="icon" type="image/x-icon" href="ecuador.ico">
-    
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    
     <div class="container">
-        <video autoplay loop muted controls class="video"><source src="carondelet.mp4" type="video/mp4"></video>
-        <header>
-            <div class="nav">
-                <div><a href=""><i class="fi fi-ss-circle amarillo"></i><i class="fi fi-ss-circle azul"></i><i class="fi fi-ss-circle rojo"></i></a></div>
-                <div class="reloj" id="txt"></div>
-                <div><a onclick="myFunction()" href="javascript:void(0);"><i class="fi fi-ss-menu-burger toggle"></i></a></div>
-            </div>
-            <audio id="music" src="11 Sombras.mp3"></audio>
-            <div class="player">
         
-                <div class="controls">
-                    
-                    <input class="volume" type="range" id="volume">
-                    <div id="play" class="play" onclick="playAudio()"><ion-icon name="play-circle-outline"></ion-icon></div>
-                    <div id="pause" class="pause" onclick="pauseAudio()"><ion-icon name="pause-circle-outline"></ion-icon></div>
-                    
+            <header>
+                <div class="header_a">
+                    <div class="logo">
+                        <a href="index.html"><img width="100" src="ecuador_tri.png" alt=""></a>
+                        </div>
+                    <div class="nav">
+                        <a href="index.html">Inicio</a>
+                        <a href="">Sobre nosotros</a>
+                        <a href="">Contacto</a>
+                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
                 </div>
+                <div class="redes">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <div class="toggle" id="toggle"><i class="fa-solid fa-bars"></i></div>
+                <div class="close " id="close"><i class="fa-solid fa-close"></i></div>
+                <div class="cuenta">
+                        <li>Ingresar</li>
+                        <li>Tienda</li>
+                        <li>Sucríbete</li>
+                        <li>Fuentes</li>
+                        <li>Autores</li>
+                        <li>Buzón</li>
+                </div>
+            </header>
+       
+        <div class="vertical_nav" id="vertical_nav">
+            <div class="logo">
+                <img width="150px" src="ecud.png" alt="">
+                </div>
+            <h2>Historia del Ecuador</h2><br>
+            <div class="menu_canvas">
+                <ul>
+                    <li>Inicio</li>
+                    <li>Blog</li>
+                    <li>Contacto</li>
+                    <li>Inicio</li>
+                    <li>Blog</li>
+                    <li>Contacto</li>
+                </ul><br>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Blog</li>
+                    <li>Contacto</li>
+                    <li>Inicio</li>
+                    <li>Blog</li>
+                    <li>Contacto</li>
+                </ul><br>
             </div>
-        </header>
-        <div class="menu" id="menu" >
-            <ul id="list">
-                <li>Inicio</li>
-                <li><a href="Sobrenosotros.html">Sobre nosotros</a></li>
-                <li>Mi cuenta</li>
-                <li>Contacto</li>
-            </ul>
+            <div class="redes_offcanvas">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            </div><br>
+            <p>Todos los derechos reservados © 2023 La Historia del Ecuador</p>
         </div>
-        
-        <div class="contenedor">
-            
-            <div class="form">
-                <div class="texto">
-                    <p><i class="fi fi-ss-circle amarillo"></i><i class="fi fi-ss-circle azul"></i><i class="fi fi-ss-circle rojo"></i></p>
-                    <h1>LA HISTORIA DEL ECUADOR</h1><hr><br>
-                    <p>Muy pronto en este sitio descubrirás y conocerás todas las historias del Ecuador. Prepárate para un viaje directo a la mitad del mundo.</p><br>
-                    <!-- <h2>Suscríbete para notificarte sobre el lanzamiento de lahistoriadelecuador.com</h2>
-                    <div class="newsletter"><input type="email" name="" id="" placeholder="e-mail"><button type="submit">ENVIAR</button></div> -->
+        <section class="section_a">
+            <h1>LA HISTORIA DEL ECUADOR </h1>
+            <p>Queremos que la historia y el legado del Ecuador<span><img width="50px" src="ecuador_tri.png" alt=""></span> permanezcan de generación en generación. Relatamos los hechos y la historia con gráficos interactivos que permiten
+                disfrutar de nuestra historia de una manera entretenida y educativa.</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error sunt placeat porro illum iusto nihil fugiat. Repellendus natus atque, in velit blanditiis vero harum consequuntur pariatur, ipsum praesentium esse!
+            </p>    
+        </section>
+        <section class="section_b">
+            <h2 class="section_title">Lo más reciente</h2>
+            <div class="card">
+                <div class="image"><a href="header.html"><img src="batalla.jpg" alt=""></a></div>
+                <div class="content">
+                    <div class="title"><a href="header.html">24 de Mayo: Batalla del Pichincha</a></div>
+                    <div class="date">15 de Mayo, 2023</div>
                 </div>
             </div>
-            <div class="redes">
-                <a href=""><i class="fi fi-brands-facebook"></i></a>
-                <a href=""><i class="fi fi-brands-youtube"></i></a>
-                <a href=""><i class="fi fi-brands-instagram"></i></a>
-            </div>
+        </section>
+        <footer>
+            
+                <div class="logo_footer">
+                    <img width="100%" src="ecuador_tri.png" alt="">
+                </div>
+                <div class="about">
+                    <p class="sobrenotros"><strong>Sobre nosotros</strong></p><br>
+                    
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos sed explicabo optio. Similique, at ea! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, incidunt dolorem soluta dolores delectus alias.</p><BR></BR>
+                    <p class="suscribete"><strong>Suscríbete para recibir nuestras últimas historias</strong></p><br>
+
+                    <!-- Begin Mailchimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form class="mail" action="https://lahistoriadelecuador.us21.list-manage.com/subscribe/post?u=a7b74ae18754b1666b9ccc0a0&amp;id=6daecd2a16&amp;f_id=006351e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
+                        <div class="forma" id="mc_embed_signup_scroll">
+                                
+                        
+                            <div class="mc-field-group">
+                                
+                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+                                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                            </div>
+                            <div id="mce-responses" class="clear foot">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a7b74ae18754b1666b9ccc0a0_6daecd2a16" tabindex="-1" value=""></div>
+                                <div class="optionalParent">
+                                    <div class="clear foot">
+                                        <input type="submit" value="ENVIAR" name="ENVIAR" id="mc-embedded-subscribe" class="button">                  
+                                    </div>
+                                </div>
+                        </div>
+                    </form>
+                </div>
+
+                    <!--End mc_embed_signup-->
+                </div>
+
+                <div class="nav_footer">
+                    <a><strong>Navegación</strong></a><br>             
+                    <a href="">Inicio</a>
+                    <a href="">Sobre nosotros</a>
+                    <a href="">Contacto</a>
+                    
+                </div>
+            
+            
+                <div class="cuenta_footer">
+                    <li><strong>Links Útiles</strong></li> <br>              
+                    <li>Ingresar</li>
+                    <li>Tienda</li>
+                    <li>Sucríbete</li>          
+                    <li>Fuentes</li>
+                    <li>Autores</li>
+                    <li>Buzón</li>    
+                </div>
+            
+            
+        </footer>
+        <div class="redes_footer">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-tiktok"></i></a>
         </div>
     </div>
-     
-        <script src="hde.js"></script>    
-         
-          
-    
 
+    <script src="hde.js"></script>
 </body>
 </html>
