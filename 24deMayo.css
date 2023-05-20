@@ -67,10 +67,14 @@ body{
 .content_post p{
     font-family: 'Crimson Pro', serif;
     color: rgb(0, 0, 0);
+    font-size: 21px;
 }
 .content_post h1,
 .content_post .date_post{
     text-align: center;
+}
+.content_post h1{
+    font-size: 45px;
 }
 
 @media only screen and (max-width: 1000px) {
