@@ -18,7 +18,7 @@ body{
     line-height: ;
 }
 .container{
-    background-image: url('telan.png'); 
+    background-image: url(''); 
     background-attachment: fixed;
    width: 100%;
    margin: auto;
@@ -168,11 +168,11 @@ margin-top: 10px;
 .redes_offcanvas a{
     padding-left:10px ;
 }
+
 .section_a{
     background-color: #ffffff;
-    width: 96%;
-    position: relative;
-    left: 4%;
+    width: 100%;
+    
     padding: 100px 3%;
 }
 .section_a h1{
@@ -191,16 +191,15 @@ margin-top: 10px;
 }
 .section_title {
     background-image: url();
-    color: rgb(4, 4, 4);
-    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
     font-weight: 900;
     margin-bottom: 40px;
 }
 .section_b {
-    position: relative;
-    left: 4%;
+    
     background-color:#ffffff ;
-    width: 96%;
+    width: 100%;
     padding:0px 3%;
 }
 .section_b .title,
@@ -209,7 +208,7 @@ margin-top: 10px;
     color: black;
 }
 .section_b .title{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
 }
 .section_b .extract{
